@@ -1,0 +1,6 @@
+div {
+  background-color: #000000;
+}
+div:after {
+  content: "\2B08";
+}

@@ -1,0 +1,52 @@
+{
+  "name": "lit-element-scss-loader",
+  "author": "click solutions GmbH",
+  "contributors": [
+    {
+      "name": "Paul Facklam",
+      "url": "http://paulfacklam.de/"
+    }
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "A webpack loader for generating JavaScript styles from a imported CSS/SCSS file for webcomponents based on Polymers LitElement.",
+  "homepage": "https://github.com/clicksolutions/lit-element-scss-loader",
+  "repository": "https://github.com/clicksolutions/lit-elment-scss-loader",
+  "bugs": {
+    "url": "https://github.com/clicksolutions/lit-element-scss-loader/issues"
+  },
+  "main": "dist/lit-element-scss-loader.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "prepublish": "npm run test && npm run build"
+  },
+  "keywords": [
+    "lit",
+    "lit-element",
+    "webcomponents",
+    "scss",
+    "sass",
+    "webpack",
+    "loader",
+    "automatic",
+    "styles",
+    "stylesheets",
+    "constructable"
+  ],
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "lit-element": "^2.0.1",
+    "jest": "^24.9.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.2.3"
+  },
+  "peerDependencies": {
+    "webpack": "^4.29.5"
+  },
+  "jest": {
+    "verbose": true,
+    "testMatch": ["**/tests/**/*.test.js"]
+  }
+}
