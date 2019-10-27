@@ -9,7 +9,7 @@
   ],
   "license": "MIT",
   "version": "1.0.0",
-  "description": "A webpack loader for generating JavaScript styles from a imported CSS/SCSS file for webcomponents based on Polymers LitElement.",
+  "description": "A webpack loader for generating JavaScript styles from an imported CSS/SCSS file for webcomponents based on Polymers LitElement.",
   "homepage": "https://github.com/clicksolutions/lit-element-scss-loader",
   "repository": "https://github.com/clicksolutions/lit-elment-scss-loader",
   "bugs": {
