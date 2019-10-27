@@ -9,14 +9,14 @@ npm install lit-element-scss-loader --save-dev
 ```
 
 ## Requirements
-* LitElement
+* [LitElement](https://lit-element.polymer-project.org/)
 * Webpack 4 Loaders
   * [extract-loader](https://www.npmjs.com/package/extract-loader)
   * [css-loader](https://webpack.js.org/loaders/css-loader/)
   * [sass-loader](https://webpack.js.org/loaders/sass-loader/) (optional)
 
 # How this works:
-1. Include `lit-element-scss-loader` in your Webpack config. You will also need to use extract-loader if you're using `sass-loader` and/or `css-loader`. Make sure that you put `lit-element-scss-loader` to the first position so that it will be called last by webpack.
+1. Include `lit-element-scss-loader` in your Webpack config. You will also need to use the `extract-loader` if you're using `sass-loader` and/or `css-loader`. Make sure that you put `lit-element-scss-loader` to the first position so that it will be called last by the webpack loader mechanism.
 
 ```javascript
   rules: [
