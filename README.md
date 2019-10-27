@@ -1,4 +1,4 @@
-<img src="https://www.polymer-project.org/images/logos/p-logo.png">
+<img src="./lit-element-scss-loader.png">
 
 # lit-element-scss-loader
 A webpack loader for generating JavaScript styles from a imported CSS/SCSS file for webcomponents based on Polymers LitElement.
@@ -11,9 +11,9 @@ npm install lit-element-scss-loader --save-dev
 ## Requirements
 * LitElement
 * Webpack 4 Loaders
-  * `extract-loader`,
-  * `css-loader`,
-  * `sass-loader`
+  * [extract-loader](https://www.npmjs.com/package/extract-loader)
+  * [css-loader](https://webpack.js.org/loaders/css-loader/)
+  * [sass-loader](https://webpack.js.org/loaders/sass-loader/) (optional)
 
 # How this works:
 1. Include `lit-element-scss-loader` it in your Webpack config. You will also need to use extract-loader if you're using sass-loader and/or css-loader. Make that you put `lit-element-scss-loader` to the first position so that it will be called last by webpack.
