@@ -40,7 +40,7 @@
     "jest": "^24.9.0",
     "memory-fs": "^0.4.1",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.3.12"
   },
   "peerDependencies": {
     "webpack": "^4.29.5"
